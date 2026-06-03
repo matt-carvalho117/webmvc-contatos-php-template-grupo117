@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    background: #f3f5f8;
+    color: #1f2937;
+}
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+.descricao {
+    padding: 12px;
+    border-left: 4px solid #2563eb;
+    background: #eff6ff;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input,
+textarea {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+textarea {
+    min-height: 110px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 18px;
+    border: 0;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.alerta {
+    margin: 14px 0;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.alerta.sucesso {
+    background: #dcfce7;
+    border: 1px solid #86efac;
+}
+
+.alerta.erro {
+    background: #fee2e2;
+    border: 1px solid #fca5a5;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #f8fafc;
+}
