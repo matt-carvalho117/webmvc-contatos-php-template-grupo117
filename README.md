@@ -9,8 +9,7 @@ Esta aplicação tem como objetivo demonstrar a organização de uma aplicação
 O projeto apresenta um sistema simples de cadastro de contatos, aplicando conceitos de separação de responsabilidades entre as partes da aplicação.
 
 Fluxo da aplicação:
-
-```text
+```text.
 Navegador
    ↓
 Controller
